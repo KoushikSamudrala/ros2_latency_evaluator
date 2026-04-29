@@ -44,10 +44,11 @@ You will need two terminals. Ensure you source your workspace (`source install/s
     
 ```bash
     ros2 run latency_evaluator ping_node
-    ```
+```
 
-    **Terminal 2 (Subscriber):**
-    ```bash
+  **Terminal 2 (Subscriber):**
+   
+```bash
     ros2 run latency_evaluator pong_node
 ```
 
